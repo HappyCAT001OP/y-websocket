@@ -13,7 +13,7 @@
   },
   "scripts": {
     "dist": "rm -rf dist && rollup -c && tsc",
-    "start": "node ./node_modules/y-websocket/bin/server.js",
+     "start": "node index.js"
     "lint": "standard && tsc",
     "test": "npm run lint",
     "preversion": "npm run lint && npm run dist && test -e dist/src/y-websocket.d.ts && test -e dist/y-websocket.cjs"
