@@ -13,6 +13,7 @@
   },
   "scripts": {
     "dist": "rm -rf dist && rollup -c && tsc",
+    "start": "node ./node_modules/y-websocket/bin/server.js",
     "lint": "standard && tsc",
     "test": "npm run lint",
     "preversion": "npm run lint && npm run dist && test -e dist/src/y-websocket.d.ts && test -e dist/y-websocket.cjs"
@@ -51,10 +52,10 @@
     ]
   },
   "dependencies": {
-  "lib0": "^0.2.102",
-  "y-protocols": "^1.0.5",
-  "@y/websocket-server": "^1.0.0"
-},
+    "lib0": "^0.2.102",
+    "y-protocols": "^1.0.5",
+    "y-websocket": "^1.5.0"
+  },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "rollup": "^3.19.1",
