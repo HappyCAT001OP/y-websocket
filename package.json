@@ -51,7 +51,6 @@
     ]
   },
   "dependencies": {
-     "ws": "^8.0.0",
   "lib0": "^0.2.102",
   "y-protocols": "^1.0.5"
      "@y/websocket-server": "^1.0.0"
