@@ -54,7 +54,7 @@
   "dependencies": {
     "lib0": "^0.2.102",
     "y-protocols": "^1.0.5",
-    "y-websocket": "^1.5.0"
+    "y-websocket": "^1.4.5"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
